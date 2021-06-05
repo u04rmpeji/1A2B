@@ -1,6 +1,6 @@
 # 1A2B
 
-This is a simple guess number game.
+This is a simple guessing number game.
 
 ## subheader
 
