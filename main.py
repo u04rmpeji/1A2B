@@ -36,7 +36,6 @@ def generate(length : int) -> str:
     return "".join(map(str, numbers[:length])) # [1, 3, 8, ...] -> ["1", "3", "8" , ...] -> "138..."
 
 answer = generate(length)
-print(answer)
 guess = 0
 attempts = 0
 while guess != answer:
