@@ -4,7 +4,7 @@ from functions.ordinal import ordinal
 length = None
 
 def ask():
-    global length
+    global length # "global" makes a function have the ability to modify variable in global scope
     try:
         answer = int(input("Please decide the number length[3-9] (default 4): "))
     except ValueError:
