@@ -1,2 +1,2 @@
 # 1A2B
-I have nothing to say.
+This is a simple guess number game.
