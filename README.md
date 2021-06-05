@@ -2,6 +2,6 @@
 
 This is a simple guess number game.
 
-## subheading
+## subheader
 
 Nothing but a simple game.
