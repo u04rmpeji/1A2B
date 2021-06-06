@@ -1,6 +1,7 @@
 def ordinal(num : int) -> str:
     """
-    Return the ordinal of a number \n
+    Return the ordinal of a number
+    
     For example, 1 -> 1st , 13 -> 13th , 22 -> 22rd
     """
     remainder = num % 100

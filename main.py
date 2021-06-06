@@ -23,8 +23,9 @@ while length == None:
 # functions 
 def generate(length : int) -> str:
     """
-    Return a non-repeating number by the given length \n
-    The number is consist of 0-9 and starts with a non-zero number \n
+    Return a non-repeating number by the given length, 
+    the number is consist of 0-9 and starts with a non-zero number.
+    
     For example: 435, 1234, 15094 or 156107
     """
     numbers = []
