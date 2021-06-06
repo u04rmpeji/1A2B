@@ -11,10 +11,10 @@ B stands for the number is correct, but position is not.
     guess  : 1567  
              ^  
              A  
-    1A0B  
+    >>> 1A0B  
 
     answer : 1234  
     guess  : 1425  
              ^^^  
              ABB  
-    1A2B  
+    >>> 1A2B  
