@@ -42,18 +42,13 @@ attempts = 0
 while guess != answer:
     guess = input(f"Please enter a {length}-digit number: ")
     #　detections
-    is_break = False
     try:
         int(guess)
     except ValueError:
         print("Please do not enter non-number characters")
         continue
-    for i in guess:
-        if guess.count(i) >= 2:
-            print("Number can't be repeated")
-            is_break = True
-            break
-    if is_break:
+    if len(guess) != len(set(guess)):
+        print("Number can't be repeated")
         continue
     if guess[0] == "0":
         print("Number can't starts with '0'")
